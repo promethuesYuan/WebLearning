@@ -1,0 +1,168 @@
+<!--这里测试了strong标签和b标签的效果-->
+<!--推荐使用strong标签-->
+<p>无粗体效果</p>
+<strong>strong标签粗体效果</strong><br>
+<b>b标签粗体效果</b>
+<hr>
+
+<!--这里测试了i标签和em标签的效果-->
+<!--推荐使用em标签-->
+<p>无斜体效果</p>
+<i>i标签斜体效果</i><br>
+<em>em标签斜体效果</em>
+<hr>
+
+<!--学习预格式使用-->
+<p>无预格式：</p>
+public class HelloWorld {
+public static void main(String[] args) {
+System.out.println("Hello World");
+}
+}
+<br>
+
+<p>使用预格式：</p>
+<pre>
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+ </pre>
+<hr>
+
+<!--学习使用删除效果-->
+<p>无删除效果</p>
+<del>使用del标签实现删除效果</del>
+<br>
+<s>使用s标签实现删除效果，不过不推荐使用，因为很多浏览器不支持</s>
+<hr>
+
+<!--学习使用下划线-->
+<ins>使用ins标签实现下划线</ins>
+<br>
+<u>使用u标签实现下划线，但不推荐使用</u>
+<hr>
+
+<!--学习使用图像-->
+<img src="images/skill1.png">
+<div align="center">
+    <img src="file://E:\前端\html\images/skill2.png">
+</div>
+<img src="123.png" alt="test alt">
+<hr>
+
+<!--学习使用超链接-->
+<a href="http://how2j.cn/k/html/html-a/186.html" target="_blank">HTML</a><br>
+<a href="https://www.bilibili.com/video/av38513367/?p=6" title="学习Mybatis">Mybatis学习网站</a><br>
+<a href="https://www.bilibili.com/video/av38513367/?p=6"><img src="images/skill1.png" alt=""> </a>
+<hr>
+
+<!--学习使用table-->
+<table>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+
+    <tr>
+        <td>a</td>
+        <td>b</td>
+    </tr>
+</table>
+<br>
+<table border="1">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+
+    <tr>
+        <td>a</td>
+        <td>b</td>
+    </tr>
+</table>
+<br>
+<table border="1" width="200px">
+    <tr bgcolor="pink">
+        <td valign="top">1</td>
+        <td align="left">
+            2 <br>
+            2 <br>
+            2 <br>
+        </td>
+    </tr>
+
+    <tr>
+        <td valign="middle">3</td>
+        <td align="center">
+            2 <br>
+            2 <br>
+            2 <br>
+        </td>
+    </tr>
+
+    <tr>
+        <td valign="bottom">a</td>
+        <td align="right">
+            2 <br>
+            2 <br>
+            2 <br>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">1, 2</td>
+    </tr>
+</table>
+<hr>
+
+<!--学习列表-->
+<p>无序列表：</p>
+<ul>
+    <li>dota</li>
+    <li>lol</li>
+</ul>
+<p>有序列表</p>
+<ol>
+    <li>dota</li>
+    <li>lol</li>
+</ol>
+<hr>
+
+<!--学习块 diy & span-->
+<p>
+    div span
+    这两种标签都是布局用的
+    这种标签本身没有任何显示效果
+    通常是用来结合css进行页面布局 
+</p>
+<p>
+    div布局：
+</p>
+<div style="margin-left:100px">
+    <img src="images/skill1.png" alt="">
+    <br>
+    <img src="images/skill1.png" alt="">
+</div>
+<p>
+    二者的区别:
+    div是块元素，即自动换行
+    常见的块元素还有h1,table,p
+    span是内联元素，即不会换行
+    常见的内联元素还有img,a,b,strong 
+</p>
+<hr>
+
+<!--内联框架-->
+<iframe src="http://how2j.cn/" width="600px" height="400px"></iframe>
